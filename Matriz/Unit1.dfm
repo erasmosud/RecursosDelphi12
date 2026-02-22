@@ -16,7 +16,7 @@ object Form1: TForm1
     Width = 318
     Height = 41
     Align = alTop
-    Caption = 'Valores em Delphi - Arrays'
+    Caption = 'Valores em Delphi - Matriz'
     Color = clSkyBlue
     Ctl3D = True
     DoubleBuffered = False
@@ -30,14 +30,13 @@ object Form1: TForm1
     ParentDoubleBuffered = False
     ParentFont = False
     TabOrder = 0
-    ExplicitWidth = 316
   end
   object btnArrayDinamico: TButton
     Left = 40
     Top = 103
     Width = 241
     Height = 25
-    Caption = 'Array Din'#226'mico'
+    Caption = 'Matriz Din'#226'mica'
     TabOrder = 1
     OnClick = btnArrayDinamicoClick
   end
@@ -46,7 +45,7 @@ object Form1: TForm1
     Top = 57
     Width = 241
     Height = 25
-    Caption = 'Array de tamanho fixo'
+    Caption = 'Matriz de tamanho fixo'
     TabOrder = 2
     OnClick = btnArrayFixoClick
   end
@@ -68,7 +67,5 @@ object Form1: TForm1
     Lines.Strings = (
       'mmoLista')
     TabOrder = 4
-    ExplicitTop = 192
-    ExplicitWidth = 316
   end
 end
